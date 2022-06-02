@@ -1,0 +1,72 @@
+{
+    "name": "Main Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "088bba29-6bb1-4870-8c0a-c5c632d3b78b",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "6ad79d1d-9fbf-4a62-b9cd-e012fe1d3fde",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0014519b-1073-4347-9eed-cd0662750d2e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6771b6f-b1bd-4e35-884d-c6e2476b90f2",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touchscreen",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse and Keyboard",
+            "bindingGroup": "Mouse and Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touchscreen",
+            "bindingGroup": "Touchscreen",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
